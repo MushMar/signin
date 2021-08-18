@@ -1,0 +1,29 @@
+
+@import 'scroll-custom';
+@import 'variables';
+
+// General style overrides and custom classes
+
+body {
+  color: #242424;
+  font-family: $family--default;
+  font-size: $font--size;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: white;
+}
+
+*, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #242424;
+}
+a {
+  text-decoration: none;
+}
+

@@ -1,0 +1,22 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  &-track { /* Track */
+    box-shadow: inset 0 0 5px grey;
+    opacity: .3;
+    border-radius: 10px;
+  }
+  &-thumb {  /* Handle */
+    background: lighten(#2F80F3, 20%);
+    border-radius: 10px;
+    &:hover { /* Handle on hover */
+      background: #2F80F3;
+    }
+  }
+
+}
+
+
+
+
+
